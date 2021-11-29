@@ -1,7 +1,7 @@
 
 
 
-Body {
+body {
 
     background-color: rgb(247, 220, 49);
     margin: 0px;
@@ -11,11 +11,18 @@ Body {
 }
 
 
+main {
+    background-color: rgb(255,255,255);
+}
+
+
+
 header {
-    background-color: rgb(59,177,222)
+    background-color: rgb(59,177,222);
 }
 
 footer {
-    background-color: rgb(255,103,31)
-
+    background-color: rgb(255,103,31);
+    height: 10%;
+    width: 100%;
 }
