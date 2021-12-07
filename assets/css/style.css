@@ -1,25 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap'); 
  
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+ }
+ 
+ /* Logo */
 
+ #logo {
+    size: 100%;
+    margin: auto;
+    display: block;
+}
+
+
+/* Headings */
+
+h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+/* Horizontal styles*/
+
+#hr_blue {
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(59,177,222);
+}
+
+#hr_yellow {
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(247, 220, 49));
+}
+
+#hr_red {
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(232,48,42)
+}
+
+/* Navigation */  
+
+#navigation_bar li {
+    float: right;
+    margin: auto;
+    line-height: 75px;
+}
+
+
+/* Main content */
+
+header {
+    background-color: rgb(255, 255, 255);
+}
 
 body {
 
-    background-color: rgb(247, 220, 49);
-    margin: 10%;
-    padding: 0px;
-    border: 0px;
-
+    background-color: rgb(255, 255, 255);
+    margin: 5%;
 }
 
-
-main {
-    background-color: rgb(255,255,255);
-}
-
-
-
-header {
-    background-color: rgb(59,177,222);
-}
+/* footer */
 
 footer {
     background-color: rgb(255,103,31);
@@ -43,13 +93,17 @@ footer {
 
 */
 
-/* mobile screens 
+/* mobile screens */ 
 @media screen and (min-width: 800px) {
 
-    body {
-        margin: 10%;
+    #logo {
+        size: 50%;
+        display: block;
     }
     
+
+    header h1 {
+        font-size: 50%;
+    }
 }
     
-/*
