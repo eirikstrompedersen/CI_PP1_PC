@@ -14,14 +14,6 @@
     display: block;
 }
 
-/* Text Styles */ 
-
-p {
-    font-family: 'Merriweather', serif;
-    font-style: normal;
-    font-size: 16px;
-}
-
 /* Headings */
 
 h1, h2, h3 {
@@ -30,13 +22,22 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* Text Styles */ 
+
+article p {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-size: 16px;
+    margin: 25px;
+}
+
 /* Horizontal styles*/
 
 #hr_blue {
     display: block;
     width: 100%;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
     color: rgb(59,177,222);
 }
 
@@ -44,24 +45,25 @@ h1, h2, h3 {
     display: block;
     width: 100%;
     border-style: solid;
-    border-width: 1px;
-    color: rgb(247, 220, 49));
+    border-width: 3px;
+    color: rgb(247, 220, 49);
 }
 
 #hr_red {
     display: block;
     width: 100%;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
     color: rgb(232,48,42)
 }
 
 /* Navigation */  
 
 #navigation_bar li {
-    float: right;
-    margin: auto;
+    float: right; 
+    margin: 25px;
     line-height: 75px;
+    list-style-type: none;
 }
 
 
