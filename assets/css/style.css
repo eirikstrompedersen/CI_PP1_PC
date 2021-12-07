@@ -1,10 +1,10 @@
-
+ 
 
 
 body {
 
     background-color: rgb(247, 220, 49);
-    margin: 0px;
+    margin: 10%;
     padding: 0px;
     border: 0px;
 
@@ -26,3 +26,30 @@ footer {
     height: 10%;
     width: 100%;
 }
+
+/*
+
+@media screen and (min-width: 800px) {
+    .container {
+        margin: 10%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        margin: 10%;
+    }
+}
+
+*/
+
+/* mobile screens 
+@media screen and (min-width: 800px) {
+
+    body {
+        margin: 10%;
+    }
+    
+}
+    
+/*
