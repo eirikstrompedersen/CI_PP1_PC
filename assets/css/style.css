@@ -59,9 +59,12 @@ p {
 
 /* Navigation */  
 
+#navigation {
+    text-align: center;
+    float: right;
+}
+
 #navigation li {
-    float: center;
-    margin: 25px;
     line-height: 75px;
     list-style-type: none;
 }
@@ -85,6 +88,10 @@ footer {
     background-color: rgb(255,103,31);
     height: 10%;
     width: 100%;
+}
+
+.social_links {
+    text-align: center;
 }
 
 /*
