@@ -61,10 +61,11 @@ p {
 
 #navigation {
     text-align: center;
-    float: right;
+    text-transform: uppercase;
 }
 
 #navigation li {
+    display: inline;
     line-height: 75px;
     list-style-type: none;
 }
@@ -85,13 +86,23 @@ body {
 /* footer */
 
 footer {
-    background-color: rgb(255,103,31);
-    height: 10%;
-    width: 100%;
+    background-color: rgb(59,177,222);
+    height: 200px;
 }
 
+footer p {
+   /*color: rgb(255, 255, 255);*/
+    text-align: center;
+}
 .social_links {
     text-align: center;
+}
+
+.social_links i {
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    padding: 5%;
 }
 
 /*
