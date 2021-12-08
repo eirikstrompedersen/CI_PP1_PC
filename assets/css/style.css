@@ -24,7 +24,7 @@ h1, h2, h3 {
 
 /* Text Styles */ 
 
-article p {
+p {
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-size: 16px;
@@ -59,8 +59,8 @@ article p {
 
 /* Navigation */  
 
-#navigation_bar li {
-    float: right; 
+#navigation li {
+    float: center;
     margin: 25px;
     line-height: 75px;
     list-style-type: none;
@@ -114,8 +114,7 @@ footer {
     
 
     header h1 {
-        font-size: 50%;
+        font-size: 100%;
     }
 }
-    
-*/
+*/ 
