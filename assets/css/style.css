@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
  
  * {
      margin: 0;
@@ -6,6 +7,18 @@
      border: 0;
  }
  
+ header {
+    background: url("/assets/img/background_image.jpg") no-repeat, center center;
+    background-position: ;
+ }
+
+ body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
  /* Logo */
 
  #logo {
@@ -16,7 +29,14 @@
 
 /* Headings */
 
-h1, h2, h3 {
+h1 {
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Archivo Black', sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+h2, h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     text-align: center;
@@ -62,6 +82,8 @@ p {
 #navigation {
     text-align: center;
     text-transform: uppercase;
+    background-color: rgb(68,68,68);
+    height: 50px;
 }
 
 #navigation li {
@@ -70,17 +92,21 @@ p {
     list-style-type: none;
 }
 
+#navigation a {
+    color:rgb(255, 255, 255);
+}
 
 /* Main content */
 
-header {
-    background-color: rgb(255, 255, 255);
+#left-content, #right-content{
+    float: left;
+    width: 100%;
+    padding: 0;
 }
 
-body {
 
-    background-color: rgb(255, 255, 255);
-    margin: 10%;
+#center-content {
+
 }
 
 /* footer */
@@ -88,6 +114,9 @@ body {
 footer {
     background-color: rgb(59,177,222);
     height: 200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
 }
 
 footer p {
@@ -107,13 +136,13 @@ footer p {
 
 /*
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .container {
         margin: 10%;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 950px) {
     .container {
         margin: 10%;
     }
