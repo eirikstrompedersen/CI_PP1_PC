@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
  
  * {
      margin: 0;
@@ -21,27 +20,73 @@
  /* Logo */
 
  #logo {
-    size: 100%;
-
+    text-align: center;
+    position: relative;
 }
 
 /* Headings */
 
 h1 {
-    font-size: 72px;
     font-family: 'Roboto', sans-serif;
     color:rgb (0, 0, 0);
-    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: black;
     text-align: center; 
 }
 
 h2, h3 {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     text-align: center;
 }
 
-/* Text Styles */ 
+/* Navigation */  
+
+#navigation {
+    text-align: center;
+    text-transform: uppercase;
+    height: fit-content;
+}
+
+#navigation li {
+    display: inline;
+    line-height: 75px;
+    list-style-type: none;
+}
+
+#navigation a {
+    color:rgb(0, 0 , 255);
+}
+
+/* content styles*/
+
+#introduction {
+    padding-top: 30px;
+    color: red;
+    padding-bottom: 30px;
+}
+
+#left-content {
+    background-color: blue;
+    float: left;
+    width: 33%;
+    }
+    
+    #right-content {
+        background-color: red;
+        float: right;
+        width: 33%;
+        margin: 0 auto;
+    }
+    
+    #center-content {
+        background-color: blueviolet;
+        width: 33%;
+        margin: 0 auto;
+    
+    }
+
+
+/* text Styles */ 
 
 p {
     font-family: 'Merriweather', serif;
@@ -78,41 +123,13 @@ p {
 
 */
 
-/* Navigation */  
 
-#navigation {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: rgb(68,68,68);
-    height: 50px;
-}
-
-#navigation li {
-    display: inline;
-    line-height: 75px;
-    list-style-type: none;
-}
-
-#navigation a {
-    color:rgb(255, 255, 255);
-}
-
-/* Main content */
-
-#left-content, #right-content{
-
-}
-
-
-#center-content {
-
-}
 
 /* footer */
 
 footer {
     background-color: rgb(59,177,222);
-    height: 200px;
+    height: 100px;
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: 0;
@@ -123,10 +140,11 @@ footer p {
 }
 .social_links {
     text-align: center;
+    display: inline;
 }
 
 .social_links i {
-    font-size: 150%;
+    font-size: 200%;
     color: rgb(255, 255, 255);
     margin: 1%;
     padding: 5%;
@@ -149,6 +167,8 @@ footer p {
 */
 
 /* mobile screens */ 
+
+
 /*
 @media screen and (min-width: 800px) {
 
@@ -158,8 +178,8 @@ footer p {
     }
     
 
-    header h1 {
-        font-size: 100%;
+    #logo_headline {
+        font-size: 20px;
     }
 }
-*/ 
+/*
