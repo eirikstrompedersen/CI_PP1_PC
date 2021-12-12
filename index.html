@@ -7,6 +7,8 @@
     <meta name="description" content="Scandinavian supporter club for the Spanish football team Valencia CF, Scandinavia">
     <meta name="keywords" content="Valencia CF, Valencia Norway, Valencia Sweden, Valencia Denmark, Valencia Finland, Penya Chescandinavia">
 
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
    
     <title>Penya Chescandinavia - Home</title>
@@ -15,14 +17,54 @@
 </head>
 
 <body>
-
     <!-- logo and navigation-->
 
+    <!-- Bootstrap 5 -->
     <header>
+        <div class ="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="/assets/img/logo.png" alt="Penya Chescandinavia Logo" width="150" height="150" class="d-inline-block aling-top"/>
+                <span class="hidden">Bootstrap 5</span>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collaps"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav m-sm-auto text-center">
+                    <li>
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+ <!--   
         <div class="heading">
             <img id="logo" src="assets/img/logo.png" alt="Logo Penya Chescandinavia">
             <h1>Penya Chescandinavia</h1>
-            <!-- <h3>The Scandinavian supporter club for Valencia CF</h3> -->
+        <h3>The Scandinavian supporter club for Valencia CF</h3>
         </div>
 
         <div id="navigation">
@@ -43,7 +85,10 @@
                 </ul>
             </nav>
         </div>
+-->
     </header>
+
+
 
     <!-- main content -->
 
