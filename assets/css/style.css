@@ -142,23 +142,12 @@ footer p {
 /* mobile screens */ 
 
 /*
-
 @media screen and (min-width: 800px) {
 
-    body {
-    backgroud-color: #fffff;
-    margin-left: 0%;
-    margin-right: 0%;
+    #logo { 
+        width: 50%;
     }
 
-    #logo {
-        size: 50%;
-        display: block;
-    }
-    
 
-    #logo_headline {
-        font-size: 20px;
     }
 }
-
