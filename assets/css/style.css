@@ -54,7 +54,7 @@ p {
     font-style: italic;
 }
 
-/* Navigation 
+/* Navigation THIS SHALL BE ERASED IF BOOTSRAP IS OK TO USE
 
 
 
@@ -83,17 +83,31 @@ p {
 
 #left-content , #right-content{
     background-color: rgb(68, 68, 68);
-    float: left;
     width: 50%;
-    padding: 5%;
-    height: 500px;
+    height: 800px;
+    padding: 4%;
 }
     
-    #center-content {
-        background-color: blueviolet;
+#left-content {
+    float: left;
+}
+
+#right-content {
+    float: left;
+    text-align: right;
+}
+
+#center-content {
+        background-color: rgb(22, 21, 24);
     
     }
 
+/*
+#right-content {
+    
+} 
+
+    /*
 #chescandinavia-twitter {
     width: 100%;
 
@@ -101,6 +115,8 @@ p {
 
 
 /* text Styles */ 
+
+
 
 
 /* footer */
@@ -111,7 +127,7 @@ footer {
     display: inline;
     width: 100%;
     left: 0%;
-    height: 10%x;
+    height: 5%x;
     position: fixed;
     bottom: 0;
     color: #ffff;
@@ -125,7 +141,6 @@ footer {
 }
 
 footer p {
-
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
