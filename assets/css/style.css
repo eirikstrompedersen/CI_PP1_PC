@@ -53,15 +53,18 @@ p {
     padding: 2%;
 }
 
-#center-content {
+
+#social-media-navbar {
     background-color: black;
     text-align: right;
 }
 
 .social_links i {
+    background-color: black;
+    text-align: right;
     font-size: 160%;
     color: rgb(255, 255, 255);
-    padding: 1%;   
+    padding: 1%;
 }
 
 /* text Styles */ 
@@ -113,7 +116,7 @@ footer p {
         float: left;
     }
 
-    #center-content {
+    #social-media-navbar {
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
