@@ -42,9 +42,8 @@ p {
 
 /* content styles*/
 
-.main_content {
+#main_content {
     background-color: #ffffff;
-    height:fit-content;
     padding: 2%;
 }
 
@@ -109,7 +108,6 @@ footer p {
 
     body {
         background-image: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
-        border: 0;
     }    
 
     .fit-left, .fit-right {
@@ -126,7 +124,7 @@ footer p {
         margin-right: 10%;
         padding-left: 2%;
     }
-    
+
     #social-media-navbar {
         padding-right: 10%;
 
