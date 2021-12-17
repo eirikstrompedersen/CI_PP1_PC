@@ -44,13 +44,14 @@ p {
 
 #main_content {
     background-color: #ffffff;
-    padding: 2%;
+
 }
 
 #content_image {
     width: 100%;
     padding-bottom: 2%;
-    
+
+
 }
 
 #social-media-navbar {
@@ -113,11 +114,15 @@ footer p {
     .fit-left, .fit-right {
         width: 40%;
         float: left;
+        padding: 2%;
+        height: 700px;
+        background-color: #ffffff;
     }
     
     .fit-left {
         margin-left: 10%;
         padding-right: 2%;
+    
     }
 
     .fit-right {
@@ -133,7 +138,7 @@ footer p {
 
 
 
-
+/*
 @media screen and (min-width: 950px) {
     
     body {
