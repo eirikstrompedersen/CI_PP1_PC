@@ -42,12 +42,16 @@ p {
 
 /* content styles*/
 
-#left-content , #right-content{
+#content {
     background-color: #ffffff;
     height:fit-content;
     padding: 2%;
 }
 
+#content_image {
+    width: 100%;
+    
+}
 
 #social-media-navbar {
     background-color: black;
@@ -106,11 +110,18 @@ footer p {
         background-image: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
     }    
 
-    #left-content , #right-content{
+    .fit-left, .fit-right {
         width: 40%;
-        margin-right: 10%;
-        margin-left: 10%;
         float: left;
+
+    }
+    
+    .fit-left {
+        margin-left: 10%;
+    }
+
+    .fit-right {
+        margin-right: 10%;
     }
 
     #social-media-navbar {
@@ -122,14 +133,25 @@ footer p {
 
 
 
-/*
-
 @media screen and (min-width: 950px) {
     
-    
-    {
-        
+    body {
+        background-image: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
+    }    
+
+    #left-content , #right-content{
+        width: 40%;
+        margin-right: 10%;
+        margin-left: 10%;
+        float: left;
     }
+
+    #social-media-navbar {
+        padding-right: 10%;
+
+    }
+    
+        
 }
 
 
