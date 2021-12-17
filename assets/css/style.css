@@ -6,12 +6,6 @@
      border: 0;
  }
  
-.hidden {
-    display: none;
-    width: 100%;
-    position: absolute;
-}
-
 
  header {
     background-color: #ffffff;
@@ -57,6 +51,8 @@ p {
 
 #social-media-navbar {
     background-color: black;
+    /*text-align: center; */
+    padding-right: 5%;
     text-align: right;
 }
 
@@ -119,6 +115,7 @@ footer p {
 
     #social-media-navbar {
         padding-right: 10%;
+
     }
 }
 
