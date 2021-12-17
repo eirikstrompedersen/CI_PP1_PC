@@ -39,7 +39,7 @@ h2, h3 {
 /* text styles */
 p {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 12px;
     color:black;
     /*font-style: italic; */
 }
@@ -49,7 +49,7 @@ p {
 
 #left-content , #right-content{
     background-color: #ffffff;
-    height: 4000px;
+    height:fit-content;
     padding: 2%;
 }
 
@@ -62,7 +62,7 @@ p {
 .social_links i {
     background-color: black;
     text-align: right;
-    font-size: 160%;
+    font-size: 120%;
     color: rgb(255, 255, 255);
     padding: 1%;
 }
@@ -90,8 +90,9 @@ footer {
 footer p {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 10px;
     padding: 25px;
+    color: #ffffff;
 }
 
 /* layout elements */
@@ -109,7 +110,6 @@ footer p {
     }    
 
     #left-content , #right-content{
-        height: 800px;
         width: 40%;
         margin-right: 10%;
         margin-left: 10%;
