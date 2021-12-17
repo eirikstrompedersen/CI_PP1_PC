@@ -54,12 +54,12 @@ h2, h3 {
 /* text styles */
 p {
     font-family: 'Merriweather', serif;
-    font-size: 20px;
+    font-size: 16px;
     color:rgb(255, 255, 255);
-    font-style: italic;
+    /*font-style: italic; */
 }
 
- /* Navigation THIS SHALL BE ERASED IF BOOTSRAP IS OK TO USE */
+ /* Navigation THIS SHALL BE ERASED IF BOOTSRAP IS OK TO USE
 
 #navigation {
     padding: 1%;
@@ -78,6 +78,7 @@ p {
     font-size: 15px;
 }
 
+*/
 /* content styles*/
 
 
@@ -127,7 +128,7 @@ footer {
     display: inline;
     width: 100%;
     left: 0%;
-    height: 5%x;
+    height: 5%;
     position: fixed;
     bottom: 0;
     color: #ffff;
@@ -154,18 +155,10 @@ footer p {
 
 @media screen and (min-width: 1200px) {
     body {
-        margin-left: 10%;
-        margin-right: 10%;
         background: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
 
 }
 
-    footer {
-    width: 80%;
-    right: 10%;
-    left: 10%;
-
-    }
 
 /*
 
