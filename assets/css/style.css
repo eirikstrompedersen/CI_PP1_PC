@@ -50,6 +50,7 @@ p {
 
 #content_image {
     width: 100%;
+    padding-bottom: 2%;
     
 }
 
@@ -108,6 +109,7 @@ footer p {
 
     body {
         background-image: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
+        border: 0;
     }    
 
     .fit-left, .fit-right {
@@ -117,12 +119,14 @@ footer p {
     
     .fit-left {
         margin-left: 10%;
+        padding-right: 2%;
     }
 
     .fit-right {
         margin-right: 10%;
+        padding-left: 2%;
     }
-
+    
     #social-media-navbar {
         padding-right: 10%;
 
