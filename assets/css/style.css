@@ -42,7 +42,7 @@ p {
 
 /* content styles*/
 
-#content {
+.main_content {
     background-color: #ffffff;
     height:fit-content;
     padding: 2%;
