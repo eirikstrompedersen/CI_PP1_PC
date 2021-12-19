@@ -15,6 +15,49 @@
 
 
  /* Logo */
+ 
+
+ /* navigation bar */
+
+ .navigation {
+     display: inline;
+     background-color: white;
+ }
+ 
+.navigation ul {
+    padding-right: 10%;
+}
+
+ .navigation li {
+     display: inline;
+     list-style: none;
+     float: right;
+     padding: 1%;
+
+ }
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Social media navbar */
+
+#social-media-navbar {
+    background-color: black;
+    /*text-align: center; */
+    padding-right: 5%;
+    text-align: right;
+}
+
+.social_links i {
+    background-color: black;
+    text-align: right;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+}
+
 
 /* h1, h2, h3 */
 
@@ -53,21 +96,6 @@ p {
     padding-bottom: 2%;
 
 
-}
-
-#social-media-navbar {
-    background-color: black;
-    /*text-align: center; */
-    padding-right: 5%;
-    text-align: right;
-}
-
-.social_links i {
-    background-color: black;
-    text-align: right;
-    font-size: 120%;
-    color: rgb(255, 255, 255);
-    padding: 1%;
 }
 
 /* text Styles */ 
