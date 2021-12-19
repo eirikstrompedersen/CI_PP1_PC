@@ -10,6 +10,7 @@
  header {
     background-color: #ffffff;
     width: 100%;
+
  }
 
 
@@ -105,6 +106,9 @@ footer p {
     background-color: #ff671f;
 }
 
+
+
+/* responsivness */
 @media screen and (min-width: 1200px) {
 
     body {
