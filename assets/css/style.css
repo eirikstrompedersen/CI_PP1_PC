@@ -60,8 +60,9 @@
 
 /* action elements */
 
-.navigation a:hover {
-    background-color: aqua; /* will be replaced with something else*/ 
+#menu a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 /* Social media navbar */
@@ -117,7 +118,9 @@ padding-top: 4%;
     padding-top: 1%;
 }
 
-
+footer p {
+    font-family: 'Merienda One', cursive;
+}
 
 
 #decorative-text {
@@ -166,6 +169,8 @@ footer p {
     padding: 13px;
     color: #ffffff;
     font-weight: light;
+    font-style: normal;
+    font-weight: bolder;
 }
 
 
