@@ -250,8 +250,9 @@ footer p {
     }
 
     .events {
-        width: 100%;
+        width: 90%;
         float: left;
+        padding-left: 5%;
     }
 
     footer {
