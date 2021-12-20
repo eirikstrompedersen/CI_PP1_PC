@@ -96,23 +96,28 @@ h2, h3 {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 
 /* text styles */
 p {
     font-family: 'Merriweather', serif;
-    font-size: 12px;
-    color:black;
-}
-
-
-.intro-text {
     font-size: 14px;
-    color: black;
-    font-family: 'Merriweather', serif;
-    padding-top: 5%;
+    color:black;
+    font-style: italic;
 }
+
+
+.intro-text h2 {
+padding-top: 4%;
+}
+
+.intro-text p {
+    padding-top: 1%;
+}
+
+
 
 
 #decorative-text {
