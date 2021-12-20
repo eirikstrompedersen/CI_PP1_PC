@@ -112,6 +112,7 @@ p {
 
 .intro-text h2 {
 padding-top: 4%;
+text-align: center;
 }
 
 .intro-text p {
@@ -143,8 +144,10 @@ footer p {
 
 }
 
-#events {
-    float:left;
+.events {
+    color: red;
+    text-align: center;
+    margin-top: 10%;
 }
 
 /* footer */
@@ -232,10 +235,23 @@ footer p {
     
     }
 
+    .fit-left h2 {
+        text-align: left;
+    }
+
+    .fit-right h2{
+        text-align: right;
+    }
+
     .fit-right {
         float: right;
         text-align: right;
         padding-right: 5%;
+    }
+
+    .events {
+        width: 100%;
+        float: left;
     }
 
     footer {
@@ -244,10 +260,11 @@ footer p {
     }
 
     #decorative-text {
-        font-size: 120pt;
-        text-align: center;
-        font-style: italic;
+        font-size: 80pt;
+        padding-right: 5%;
+        padding-left: 5%;
     }
+
 }
 
 
