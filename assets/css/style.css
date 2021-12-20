@@ -59,10 +59,10 @@
 
 
 /* action elements */
-    a:hover  {
-        color: tomato;
 
-    }
+.navigation a:hover {
+    background-color: aqua; /* will be replaced with something else*/ 
+}
 
 /* Social media navbar */
 
@@ -85,7 +85,7 @@
 
 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     color:rgb (0, 0, 0);
     font-weight: lighter;
     color: #000000;
@@ -104,7 +104,6 @@ p {
     font-family: 'Merriweather', serif;
     font-size: 12px;
     color:black;
-    /*font-style: italic; */
 }
 
 
@@ -112,22 +111,32 @@ p {
     font-size: 14px;
     color: black;
     font-family: 'Merriweather', serif;
-    padding-top: 5px;
+    padding-top: 5%;
+}
+
+
+#decorative-text {
+    font-family: 'Merienda One', cursive;
+    color: #ff671f;
+    font-size: 40pt;
+    text-align: center;
 }
 
 /* content styles*/
 
-#main_content {
+#main-content {
     background-color: #ffffff;
     margin-left: 10%;
     margin-right: 10%;
-    height: 1200px;
+}
+
+#content-image {
+    width: 100%;
 
 }
 
-#content_image {
-    width: 100%;
-
+#events {
+    float:left;
 }
 
 /* footer */
@@ -194,30 +203,40 @@ footer p {
 
     
     body {
-        background-image: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
+        background: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
     }    
 
+    
+    #main-content {
+        height: 1200px;
+    }
+
     .fit-left, .fit-right {
-        width: 35%;
-        height: 300px;
-        background-color: #ffffff;
+        width: 40%;
+        padding-top: 2%;
     }
     
     .fit-left {
-        margin-left: 10%;
         float: left;
+        padding-left: 5%;
     
     }
 
     .fit-right {
-        margin-right: 10%;
         float: right;
         text-align: right;
+        padding-right: 5%;
     }
 
     footer {
     width: 80%;
     margin-left: 10%;
+    }
+
+    #decorative-text {
+        font-size: 120pt;
+        text-align: center;
+        font-style: italic;
     }
 }
 
