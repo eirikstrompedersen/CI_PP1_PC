@@ -54,6 +54,7 @@
     width: 100%;
     height: 2px;
     background-color: #ff671f;
+    margin-bottom: 1%;
 }
 
 
@@ -125,11 +126,6 @@ p {
 text-align: center;
 }
 
-#intro-text p {
-    padding-top: 1%;
-}
-
-
 #decorative-text {
     font-family: 'Merienda One', cursive;
     color: #ff671f;
@@ -157,11 +153,11 @@ text-align: center;
     padding-top: 4%;
     display: inline-block;
     text-align: center;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .event{
-    padding-top: 5px;
     display:inline-block;
 }
 
@@ -220,11 +216,6 @@ h3 i {
     body {
         background: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
     }    
-
-    
-    #main-content {
-        height: auto;
-    }
 
     .fit-left, .fit-right {
         width: 40%;
