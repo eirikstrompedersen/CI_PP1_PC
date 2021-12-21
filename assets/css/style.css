@@ -150,6 +150,27 @@ footer p {
     margin-top: 10%;
 }
 
+#news-box {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: white solid 2px;
+    text-align: center;
+}
+
+#news-box h3 {
+    color: white;
+    padding: 35%;
+}
+
+h3 i {
+    color: #ff671f;
+}
+
+#news-box p {
+    color: black;
+}
 /* footer */
 
 footer {
@@ -266,6 +287,8 @@ footer p {
         padding-left: 5%;
     }
 
+
+  
 }
 
 
