@@ -1,4 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
 
  
@@ -93,13 +92,20 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2 {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
+h3 
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
 
 /* text styles */
 p {
@@ -110,25 +116,27 @@ p {
 }
 
 
-.intro-text h2 {
-padding-top: 4%;
+.content-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#intro-text h2 {
 text-align: center;
 }
 
-.intro-text p {
+#intro-text p {
     padding-top: 1%;
-}
-
-footer p {
-    font-family: 'Merienda One', cursive;
 }
 
 
 #decorative-text {
     font-family: 'Merienda One', cursive;
     color: #ff671f;
-    font-size: 40pt;
+    font-size: 60px;
     text-align: center;
+    height: 120px;
+    background-color: white;
 }
 
 /* content styles*/
@@ -137,6 +145,7 @@ footer p {
     background-color: #ffffff;
     margin-left: 10%;
     margin-right: 10%;
+    height: fit-content;
 }
 
 #content-image {
@@ -144,11 +153,44 @@ footer p {
 
 }
 
-.events {
-    color: red;
+#event-section {
+    padding-top: 4%;
+    display: inline-block;
     text-align: center;
-    margin-top: 10%;
+    width: 100%;
 }
+
+.event{
+    padding-top: 5px;
+    display:inline-block;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: static;
+    bottom: 0;
+    height: 40px;
+    color: #ffff;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* news */ 
 
 #news-box {
     background-color: black;
@@ -171,89 +213,22 @@ h3 i {
 #news-box p {
     color: black;
 }
-/* footer */
-
-footer {
-    background-color: rgb(0, 0, 0);
-    display: inline-block;
-    text-align: center;
-    left: 0;
-    right: 0;
-    position: relative;
-    bottom: 0;
-    height: 40px;
-    color: #ffff;
-    width: 100%;
-}
-
-footer p {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-size: 10px;
-    padding: 13px;
-    color: #ffffff;
-    font-weight: light;
-    font-style: normal;
-    font-weight: bolder;
-}
-
-
 
 /* responsivness */
 @media screen and (min-width: 1200px) {
 
-    /*
-    #logo {
-        float: left;
-    }
-
-     /* navigation bar 
-
-    .navigation {
-        height: 50px;
-        background-color: white;
-        width: 100%;
-    }
-
-    #menu {
-        margin-right: 10%;
-        padding: 1%;
-    }
-
-    #menu li {
-        display: inline;
-        list-style: none;
-    }
-
-    #menu a {
-        text-decoration: none;
-        color: inherit;
-        float: right;
-        padding: 1%;
-        padding-bottom: 2%;
-    }
-
-    */
-
-    
     body {
         background: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
     }    
 
     
     #main-content {
-        height: 1200px;
+        height: auto;
     }
 
     .fit-left, .fit-right {
         width: 40%;
         padding-top: 2%;
-    }
-    
-    .fit-left {
-        float: left;
-        padding-left: 5%;
-    
     }
 
     .fit-left h2 {
@@ -264,16 +239,16 @@ footer p {
         text-align: right;
     }
 
+    .fit-left {
+        float: left;
+        padding-left: 5%;
+    
+    }
+
     .fit-right {
         float: right;
         text-align: right;
         padding-right: 5%;
-    }
-
-    .events {
-        width: 90%;
-        float: left;
-        padding-left: 5%;
     }
 
     footer {
