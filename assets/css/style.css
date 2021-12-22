@@ -240,8 +240,12 @@ iframe {
 /* form */
 
 form {
-    text-transform: uppercase;
+    text-align: left;
 } 
+
+form label {
+    padding: 4%;
+}
 
 form input {
     border: 1px solid black;
