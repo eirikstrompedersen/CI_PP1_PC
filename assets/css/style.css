@@ -150,15 +150,15 @@ text-align: center;
 }
 
 #event-section {
-    padding-top: 4%;
-    display: inline-block;
     text-align: center;
+    display: inline-block;
     width: 90%;
     margin-left: 5%;
 }
 
 .event{
     display:inline-block;
+    padding: 2%;
 }
 
 /* footer */
@@ -257,7 +257,12 @@ h3 i {
   
 }
 
-
+@media screen and (max-width: 300px) {
+    
+    #decorative-text {
+        display: none;
+    }
+}
 
 /*
 @media screen and (min-width: 950px) {
