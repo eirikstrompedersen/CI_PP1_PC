@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
 
- 
  * {
      margin: 0;
      padding: 0;
@@ -14,19 +13,21 @@ body {
  header {
     background-color: #ffffff;
     width: 100%;
-
  }
-
 
  /* Logo */
 .center {
     text-align: center;
  }
 
+.center h3 {
+    font-family: 'Merienda One', cursive;
+    color: #ff671f;
+    font-style: italic;
+    font-size: 1rem;
+}
 
  /* navigation bar */
-
-
 #menu {
     list-style-type: none;
     text-align: center;
@@ -36,7 +37,6 @@ body {
 #menu li {
     display: inline;
     padding: 2%;
-
 }
 
 #menu a {
@@ -45,9 +45,7 @@ body {
     color: rgb(0, 0, 0, .8);
 }
 
-
 /* layout elements */
-
 .orange-design-element {
     width: 100%;
     height: 10px;
@@ -61,16 +59,13 @@ body {
     margin-bottom: 1%;
 }
 
-
 /* action elements */
-
 #menu a:hover {
     text-decoration: underline;
     color: black;
 }
 
 /* Social media navbar */
-
 #social-media-navbar {
     background-color: black;
     text-align: center;
@@ -84,10 +79,7 @@ body {
     padding: 2%;
 }
 
-
-
 /* h1, h2, h3 */
-
 h1 {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
@@ -120,7 +112,6 @@ p {
     font-style: italic;
 }
 
-
 .content-container {
     padding-top: 4%;
     padding-bottom: 4%;
@@ -140,7 +131,6 @@ text-align: center;
 }
 
 /* content styles*/
-
 #body-layout {
     background-color: #ffffff;
     margin-left: 10%;
@@ -150,7 +140,6 @@ text-align: center;
 
 #content-image {
     width: 100%;
-
 }
 
 #event-section {
@@ -166,7 +155,6 @@ text-align: center;
 }
 
 /* footer */
-
 footer {
     background-color: rgb(0, 0, 0);
     display: inline-block;
@@ -191,7 +179,6 @@ footer p {
 }
 
 /* news */ 
-
 #news-box {
     background-color: black;
     width: 200px;
@@ -215,7 +202,6 @@ h3 i {
 }
 
 /* about */
-    
 .long-read p {
     padding:  2% 10% 2% 10%;
     text-align: left;
@@ -238,7 +224,6 @@ iframe {
 
 
 /* form */
-
 form {
     text-align: left;
 } 
@@ -273,8 +258,7 @@ form input {
 
     .fit-left {
         float: left;
-        padding-left: 5%;
-    
+        padding-left: 5%;  
     }
 
     .fit-right {
@@ -284,8 +268,8 @@ form input {
     }
 
     footer {
-    width: 80%;
-    margin-left: 10%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     #decorative-text {
@@ -293,9 +277,6 @@ form input {
         padding-right: 5%;
         padding-left: 5%;
     }
-
-
-  
 }
 
 /*
@@ -322,10 +303,7 @@ form input {
 
     #social-media-navbar {
         padding-right: 10%;
-
-    }
-    
-        
+    }   
 }
 
 
@@ -333,8 +311,5 @@ form input {
 
 /*
 @media screen and (min-width: 800px) {
-    }
-
-
-    }
+    
 }
