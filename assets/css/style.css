@@ -223,6 +223,14 @@ iframe {
     padding-left: 10%;
 }
 
+.square {
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+}
+
 /* responsivness */
 @media screen and (min-width: 1200px) {
 
