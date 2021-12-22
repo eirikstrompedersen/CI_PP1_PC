@@ -7,6 +7,10 @@
      border: 0;
  }
  
+body {
+    font-size: 16px;
+}
+
  header {
     background-color: #ffffff;
     width: 100%;
@@ -86,7 +90,7 @@
 
 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 2.5rem;
     color:rgb (0, 0, 0);
     font-weight: lighter;
     color: #000000;
@@ -95,7 +99,7 @@ h1 {
 
 h2 {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
@@ -103,7 +107,7 @@ h2 {
 h3 
 {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
@@ -229,6 +233,7 @@ iframe {
     height: 150px;
     width: 150px;
     border-radius: 25%;
+    margin: 0% 2% 2% 2%;
 }
 
 /* responsivness */
