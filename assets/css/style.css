@@ -236,6 +236,17 @@ iframe {
     margin: 0% 2% 2% 2%;
 }
 
+
+/* form */
+
+form {
+    text-transform: uppercase;
+} 
+
+form input {
+    border: 1px solid black;
+}
+
 /* responsivness */
 @media screen and (min-width: 1200px) {
 
