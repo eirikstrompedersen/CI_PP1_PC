@@ -90,7 +90,7 @@ body {
 
 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:rgb (0, 0, 0);
     font-weight: lighter;
     color: #000000;
@@ -135,7 +135,7 @@ text-align: center;
     color: #ff671f;
     font-size: 60px;
     text-align: center;
-    height: 120px;
+    height: 7.5rem;
     background-color: white;
 }
 
@@ -283,6 +283,7 @@ iframe {
   
 }
 
+/*
 @media screen and (max-width: 300px) {
     
     #decorative-text {
