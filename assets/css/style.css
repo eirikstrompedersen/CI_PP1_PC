@@ -225,15 +225,20 @@ iframe {
 
 /* form */
 form {
-    text-align: left;
-} 
-
-form label {
-    padding: 4%;
+    padding: 2%;
+    float: left;
 }
 
 form input {
     border: 1px solid black;
+    padding-left: 60%;
+}
+
+.button {
+    width: 50px;
+    text-align: center;
+    background-color: forestgreen;
+    color: black;
 }
 
 /* responsivness */
@@ -311,5 +316,5 @@ form input {
 
 /*
 @media screen and (min-width: 800px) {
-    
+
 }
