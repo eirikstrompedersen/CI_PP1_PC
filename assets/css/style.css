@@ -227,11 +227,11 @@ iframe {
 form {
     padding: 2%;
     float: left;
+    padding-left: 40%;
 }
 
 form input {
     border: 1px solid black;
-    padding-left: 60%;
 }
 
 .button {

@@ -71,51 +71,45 @@
 
 
 <!-- main content-->
-
-<div id="body-layout">
-    <form action="">
+<!-- used https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail to help me set up a send-mail-to-address action on submit-->
+<form id="body-layout" action="mailto:penya@chescandinavia.com" method="POST"enctype="text/plain">
+    <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="first_name" id="first_name" required>
+    </div> 
+    <div>
+        <label for="fname">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" inputmode="email" required>
+    </div>
+    <div>
+        <label for="nationality">Nationality :</label>
+    </div>
+    <div class="nation-selector">
+        <input type="radio" name="nationality" id="norway">
+        <label for="norway" >Norway</label>
+        <input type="radio" name="nationality" id="sweden">
+        <label for="sweden" >Sweden</label>
+        <input type="radio" name="nationality" id="denmark">
+        <label for="denmark" >Denmark</label>
+        <input type="radio" name="nationality" id="finland">
+        <label for="finland" >Finland</label>
         <div>
-            <label for="fname">First Name:</label>
-            <input type="text" name="first_name" id="first_name" required>
-        </div> 
-
-        <div>
-            <label for="fname">Last Name:</label>
-            <input type="text" name="last_name" id="last_name" required>
+            <label for="other" >Other :</label>
+            <input type="text" name="nationaity" id="other">
         </div>
-
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
+        <div> 
+            <label for="message">Message :</label>
+            <input type="message" name="message" id="message" maxlength="512" > 
         </div>
-
-        <div>
-            <label for="nationality">Nationality :</label>
-        </div>
-
-        <div class="nation-selector">
-            <input type="radio" name="nationality" id="norway">
-            <label for="norway" >Norway</label>
-
-            <input type="radio" name="nationality" id="sweden">
-            <label for="sweden" >Sweden</label>
-
-            <input type="radio" name="nationality" id="denmark">
-            <label for="denmark" >Denmark</label>
-
-            <input type="radio" name="nationality" id="finland">
-            <label for="finland" >Finland</label>
-
-            <div>
-                <label for="other" >Other :</label>
-                <input type="text" name="other" id="other">
-            </div>
-        </div>
-        <div>
-           <input class="button" type="button" value="Submt">
-        </div>
-    </form>
-</div>
+    </div>
+    <div>
+       <input class="button" type="submit" value="Submit" name="submit">
+    </div>
+</form>
 
 <!-- footer -->
 
