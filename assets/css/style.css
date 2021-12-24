@@ -224,32 +224,25 @@ iframe {
 
 
 /* form */ 
-form {
-    float: left;
-}
-
 .form-background {
-    background: url(/assets/img/estadio_mestalla.jpg) no-repeat center/100%;
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 400px;
+    background: url(/assets/img/estadio_mestalla.jpg);
+    height: 800px;
 }
 
 .form-style  {
-    background: rgb(68, 68, 68) 70%;
-    padding: 25px;
-    height: 40%;
-    width: 40%;
+    background: rgb(0, 0, 0, 0.7);
+    width: 30%;
+    height: fit-content;
     position: absolute;
-    border-radius: 25px;
-    margin-left: 15%;
-    margin-top: 2.5%;
     text-align: left;
+    padding: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 form label {
     color: white; 
+    letter-spacing: 1px;
 }
 
 form input {
@@ -260,9 +253,8 @@ form input {
 .button {
     width: 50px;
     text-align: center;
-    background-color: forestgreen;
+    background-color: greenyellow;
     color: black;
-    margin-left: 40%;
     margin-top: 2%;
 }
 
@@ -272,7 +264,7 @@ form input {
 }
 
 .text-field-big {
-    height: 75px;
+    height: 50px;
     width: 100%;
 }
 
@@ -316,6 +308,11 @@ form input {
         font-size: 80pt;
         padding-right: 5%;
         padding-left: 5%;
+    }
+
+    .form-background {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
