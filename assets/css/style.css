@@ -316,6 +316,15 @@ form input {
     }
 }
 
+@media  screen and (max-width: 600px) {
+    .form-style {
+        width: 80%;
+    }
+
+
+    
+}
+
 /*
 @media screen and (max-width: 300px) {
     
