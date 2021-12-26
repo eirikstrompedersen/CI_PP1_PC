@@ -126,7 +126,18 @@ text-align: center;
     color: #ff671f;
     font-size: 60px;
     text-align: center;
-    height: 7.5rem;
+    height: 60px;
+    background-color: white;
+    
+}
+
+#decorative-text-small {
+    font-family: 'Merienda One', cursive;
+    color: #ff671f;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: right;
+    padding-right: 20%;
     background-color: white;
 }
 
@@ -202,26 +213,28 @@ h3 i {
 }
 
 /* about */
+.long-read {
+padding: 5%;
+text-align: left;
+}
+
+.text-break i {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
 .long-read p {
-    padding:  2% 10% 2% 10%;
-    text-align: left;
+    margin-top: 2rem;
+    font-size: 1rem;
     font-style: normal;
-    font-family: 'Georgia', serif;
 }
 
 iframe {
-    padding-left: 10%;
+    width: 100%;
 }
-
-.square {
-    background-color: black;
-    color: white;
-    height: 150px;
-    width: 150px;
-    border-radius: 25%;
-    margin: 0% 2% 2% 2%;
-}
-
 
 /* form */ 
 .form-background {
@@ -231,6 +244,7 @@ iframe {
 
 .form-style  {
     background: rgb(0, 0, 0, 0.7);
+    font-family: "Roboto", "Arial", sans-serif;
     width: 30%;
     height: fit-content;
     position: absolute;
