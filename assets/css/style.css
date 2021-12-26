@@ -133,7 +133,7 @@ text-align: center;
 
 #decorative-text-small {
     font-family: 'Merienda One', cursive;
-    color: #ff671f;
+    color: #000000;
     font-size: 1rem;
     font-style: italic;
     text-align: right;
@@ -233,7 +233,12 @@ text-align: left;
 }
 
 iframe {
-    width: 100%;
+    margin-top: 2rem;
+}
+
+#thanks-section {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* form */ 
