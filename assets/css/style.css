@@ -7,7 +7,8 @@
  }
  
 body {
-    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    color: rgb(68, 68, 68);
 }
 
  header {
@@ -15,16 +16,30 @@ body {
     width: 100%;
  }
 
+/* h1, h2, h3 */
+h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+}
+
+#news-notices h2 {
+    color: rgb(232,48,42);
+    padding: 5%;
+}
+
  /* Logo */
 .center {
     text-align: center;
  }
 
 .center h3 {
-    font-family: 'Merienda One', cursive;
     color: rgb(232,48,42);
     font-style: italic;
-    font-size: 1rem;
 }
 
  /* navigation bar */
@@ -40,8 +55,8 @@ body {
 }
 
 #menu a {
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-family: "Roboto", "Arial", sans-serif;
     color: rgb(0, 0, 0, .8);
 }
 
@@ -74,44 +89,11 @@ body {
 .social_links i {
     background-color: black;
     text-align: right;
-    font-size: 120%;
     color: rgb(255, 255, 255);
     padding: 2%;
 }
 
-/* h1, h2, h3 */
-h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem;
-    color:rgb (0, 0, 0);
-    font-weight: lighter;
-    color: #000000;
-    text-align: center;
-}
-
-h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-h3 
-{
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
 /* text styles */
-p {
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
-    color:black;
-    font-style: italic;
-}
-
 .content-container {
     padding-top: 4%;
     padding-bottom: 4%;
@@ -124,7 +106,6 @@ p {
 #decorative-text {
     font-family: 'Merienda One', cursive;
     color: rgb(232,48,42);
-    font-size: 60px;
     text-align: center;
     height: 7.5rem;
     background-color: white;
@@ -133,7 +114,6 @@ p {
 #decorative-text-small {
     font-family: 'Merienda One', cursive;
     color: #000000;
-    font-size: 1rem;
     font-style: italic;
     text-align: right;
     padding-right: 20%;
@@ -144,7 +124,6 @@ p {
 #decorative-text-headline {
     font-family: 'Merienda One', cursive;
     color: rgb(232,48,42);
-    font-size: 6rem;
     text-align: left;
 }
 
@@ -197,26 +176,30 @@ footer p {
 }
 
 /* news */ 
+
 #news-box {
-    background-color: black;
-    width: 200px;
-    height: 200px;
-    float: left;
-    border: white solid 2px;
+    border-color: rgb(68, 68, 68);
+    border: 1px dotted;
+    margin: 5%;
+    padding: 5%;
     text-align: center;
 }
 
-#news-box h3 {
-    color: white;
-    padding: 35%;
+.news-tag {
+    color: rgb(68, 68, 68);
+    padding: 5%;
+    font-size: 2rem;
 }
 
-h3 i {
+#news-box h3 {
     color: rgb(232,48,42);
+    font-size: 16px;
+    text-align: center;
 }
 
 #news-box p {
-    color: black;
+    font-size: 12px;
+    text-align: left;
 }
 
 /* about */
@@ -236,14 +219,12 @@ text-align: left;
 .text-break i {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: 2rem;
     color: black;
     text-align: center;
 }
 
 .long-read p {
     margin-top: 2rem;
-    font-size: 1rem;
     font-style: normal;
 }
 
@@ -339,7 +320,6 @@ form input {
     }
 
     #decorative-text {
-        font-size: 80pt;
         padding-right: 5%;
         padding-left: 5%;
     }
