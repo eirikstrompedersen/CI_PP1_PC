@@ -103,7 +103,7 @@ h2, h3 {
     text-align: center;
 }
 
-#decorative-text {
+.decorative-text {
     font-family: 'Merienda One', cursive;
     color: rgb(232,48,42);
     text-align: center;
@@ -112,7 +112,7 @@ h2, h3 {
     background-color: white;
 }
 
-#decorative-text-small {
+.decorative-text-small {
     font-family: 'Merienda One', cursive;
     color: #000000;
     font-style: italic;
@@ -122,7 +122,7 @@ h2, h3 {
     background-color: white;
 }
 
-#decorative-text-headline {
+.decorative-text-headline {
     font-family: 'Merienda One', cursive;
     color: rgb(232,48,42);
     text-align: left;
@@ -241,7 +241,7 @@ iframe {
     height: 800px;
 }
 
-.form-background h2 {
+.form-background h1 {
     padding: 5%;
 }
 
@@ -327,12 +327,12 @@ form input {
         margin-left: 10%;
     }
 
-    #decorative-text {
+    .decorative-text {
         padding-right: 5%;
         padding-left: 5%;
     }
 
-    .form-background {
+    #form-background {
         margin-left: 10%;
         margin-right: 10%;
     }
