@@ -236,20 +236,22 @@ iframe {
 }
 
 /* form */ 
-.form-background {
+#form-background {
     background: url(/assets/img/estadio_mestalla.jpg);
     height: 800px;
 }
 
-.form-background h1 {
-    padding: 5%;
+#form-background h1 {
+    color: white;
+    padding-bottom: 10%;
 }
+
 
 .form-style  {
     background: rgb(0, 0, 0, 0.7);
     font-family: "Roboto", "Arial", sans-serif;
     width: 30%;
-    height: fit-content;
+    height: 400px;
     position: absolute;
     text-align: left;
     padding: 5%;
@@ -257,12 +259,12 @@ iframe {
     margin-top: 5%;
 }
 
-form label {
+label {
     color: white; 
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
-form input {
+input {
     border: 1px solid black;
     padding-left: 1%;
 }
@@ -281,7 +283,7 @@ form input {
 }
 
 .text-field-big {
-    height: 50px;
+    height: 25px;
     width: 100%;
 }
 
@@ -336,6 +338,7 @@ form input {
         margin-left: 10%;
         margin-right: 10%;
     }
+    
 }
 
 @media  screen and (max-width: 600px) {
