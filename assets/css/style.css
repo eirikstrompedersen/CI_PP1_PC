@@ -27,6 +27,12 @@ h2, h3 {
     text-align: center;
 }
 
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
 #news-notices h1 {
     color: rgb(232,48,42);
     padding: 5%;
@@ -130,7 +136,7 @@ h2, h3 {
 }
 
 /* content styles*/
-#body-layout {
+#introduction {
     background-color: #ffffff;
     margin-left: 10%;
     margin-right: 10%;
@@ -145,11 +151,28 @@ h2, h3 {
     text-align: center;
     display: inline-block;
     width: 100%;
+    background-color: rgb(232,48,42);
+    color: #ffffff;
 }
 
-.event{
+.event  {
     display:inline-block;
     padding: 2%;
+}
+
+.event h3 {
+    padding-bottom: 2rem;
+}
+
+
+.event p {
+    padding: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+#event-center {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
 /* footer */
@@ -237,7 +260,7 @@ iframe {
 
 /* form */ 
 #form-background {
-    background: url(/assets/img/estadio_mestalla.jpg);
+    background: url(/assets/img/bg-form.jpg);
     height: 800px;
 }
 
@@ -291,7 +314,7 @@ input {
 @media screen and (min-width: 1200px) {
 
     body {
-        background: url(/assets/img/background_image-pexels-daria-shevtsova.jpg);
+        background: url(/assets/img/bg-full_extent.jpg);
     }
     
     #news-notices { 
@@ -299,6 +322,15 @@ input {
         margin-right: 10%;
         background-color: #ffffff;
     }
+    
+    #event-center {
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        width: 80%;
+    }
+
 
     .fit-left, .fit-right {
         width: 40%;
