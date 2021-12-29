@@ -27,7 +27,7 @@ h2, h3 {
     text-align: center;
 }
 
-#news-notices h2 {
+#news-notices h1 {
     color: rgb(232,48,42);
     padding: 5%;
 }
@@ -288,7 +288,13 @@ form input {
 
     body {
         background: url(/assets/img/background_image-pexels-daria-shevtsova.jpg);
-    }    
+    }
+    
+    #news-notices { 
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #ffffff;
+    }
 
     .fit-left, .fit-right {
         width: 40%;
