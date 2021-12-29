@@ -156,7 +156,7 @@ h4 {
 }
 
 .event  {
-    display:inline-block;
+    display: inline-block;
     padding: 2%;
 }
 
@@ -173,6 +173,8 @@ h4 {
 #event-center {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
+    display: inline-block;
+
 }
 
 /* footer */
@@ -201,12 +203,21 @@ footer p {
 
 /* news */ 
 
+#news-notices {  
+    background-color: white;
+}
+
+#news-notices h1 {
+    text-align: center;
+}
+
+
 .news-box {
     border-color: rgb(68, 68, 68);
     border: 1px dotted;
     margin: 5%;
-    padding: 5%;
     text-align: center;
+    width: 90%;
 }
 
 .news-tag {
@@ -223,13 +234,15 @@ footer p {
 
 .news-box p {
     font-size: 12px;
-    text-align: left;
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 /* about */
 .long-read {
 padding: 5%;
 text-align: left;
+background-color: #ffffff;
 }
 
 .long-read h1 {
@@ -253,28 +266,22 @@ iframe {
     max-width: 224px;
 }
 
-#thanks-section {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 /* form */ 
-#form-background {
+.form-background {
     background: url(/assets/img/bg-form.jpg);
     height: 800px;
 }
 
-#form-background h1 {
+.form-background h1 {
     color: white;
     padding-bottom: 10%;
 }
-
 
 .form-style  {
     background: rgb(0, 0, 0, 0.7);
     font-family: "Roboto", "Arial", sans-serif;
     width: 30%;
-    height: 400px;
+    height: fit-content;
     position: absolute;
     text-align: left;
     padding: 5%;
@@ -282,7 +289,7 @@ iframe {
     margin-top: 5%;
 }
 
-label {
+.form-style label {
     color: white; 
     letter-spacing: 2px;
 }
@@ -311,6 +318,19 @@ input {
 }
 
 /* responsivness */
+@media screen and (min-width: 500px) {
+    .news-box {
+        border-color: rgb(68, 68, 68);
+        border: 1px dotted;
+        margin: 5%;
+        text-align: center;
+        width: 40%;
+        float: left;
+    }
+    
+}
+
+
 @media screen and (min-width: 1200px) {
 
     body {
@@ -320,15 +340,17 @@ input {
     #news-notices { 
         margin-left: 10%;
         margin-right: 10%;
-        background-color: #ffffff;
     }
     
+    .news-box {
+    background: white;
+    }
+
     #event-center {
         border-right: 1px solid white;
         border-left: 1px solid white;
-        border-bottom: 1px solid white;
-        border-top: 1px solid white;
-        width: 80%;
+        border-bottom: none;
+        border-top: none;
     }
 
 
