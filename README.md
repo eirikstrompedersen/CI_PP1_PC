@@ -13,15 +13,9 @@ The main task for the home page is to:
 
 
 1. [Project Goals](#project-goals)
-2.
-
-
-
-
-
-
-
-
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
 
 
 
@@ -29,22 +23,48 @@ The main task for the home page is to:
 
 
 ### User Goals
-- Find the scandinavian supporter organization for Valencia CF in Scandinavia.
-- Get information about the supporter club.
-- Find information about events.
-- Find information about the social media platform.
+- Find the Scandinavian supporter organization for Valencia CF
+- Get information about the supporter club
+- Find information about events
+- Link up with social media platform
 
 ### Site Owner Goals
-- Generate interest about the Penya Chescandinavia-community.
-- Attract new members to the organization.
-- Provide information for upcomming events and past histoy.
-
-
+- Recruit members to oranization
+- Connect users to the social media platforms
+- Provide information for upcomming events and past histoy
 
 ## User Experience
 
 ### Target Audience 
-- Inhabitants in Scandinavia with heart for Valencia CF
-- 
+- People who wish to join the organization
+- Inhabitants in Scandinavia interested in Valencia CF
+- People that wish to contact the supporter club
+
+
+### User Requierments and Expectations
+- Clean design with a color theme that suits a supporter club for Valencia CF
+- Easy to access information
+- Responsive design
+- Accessibility
+
+### User Stories
+
+#### First-Time User
+1. As a first time user, I want to get information about Penya Chescandinavia
+2. As a first time user, I want to be able to connect with the social media platforms offered
+3. As a first time user, I want to get information about upcomming events
+
+#### Returning User
+1. As a first time user, I want to able to join the supporter organization
+
+
+#### Site Owner
+
+
+
+## Design
+
+
+
 
 
