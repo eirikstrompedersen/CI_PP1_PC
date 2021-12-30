@@ -18,15 +18,18 @@ h1 {
     font-size: 2em;
 }
 
-h2, h3 {
+h2 {
     font-family: 'Merienda One', cursive;
     text-align: center;
     font-size: 1.5em;
 }
 
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
 h4 {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
     text-align: center;
 }
 
@@ -171,28 +174,20 @@ p {
     width: 100%;
 }
 
-#event-section {
+
+/* event section */ 
+#event {
     text-align: center;
-    display: inline-block;
     width: 100%;
     background-color: rgb(219,10,19);
-    color: #ffffff;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
 }
 
-.event  {
+#event div {
     display: inline-block;
-    width: 200px;
-    text-align: center;
-    padding: 1rem;
-}
-
-.event h3 {
-    padding-bottom: 2rem;
-}
-
-.event p {
-    padding: 2%;
-    font-family: "Roboto", sans-serif;
+    float: left;
+    width: 30%;
 }
 
 
@@ -219,7 +214,6 @@ footer p {
 }
 
 /* news */ 
-
 #news-notices {  
     background-color: white;
 }
@@ -344,18 +338,6 @@ input {
 }
 
 /* responsivness */
-@media screen and (min-width: 500px) {
-    .news-box {
-        border-color: rgb(68, 68, 68);
-        border: 1px dotted;
-        margin: 5%;
-        text-align: center;
-        width: 40%;
-        float: left;
-    }
-    
-}
-
 @media screen and (min-width: 1200px) {
 
     body {
