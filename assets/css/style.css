@@ -15,19 +15,18 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 2em;
 }
 
 h2 {
     font-family: 'Merienda One', cursive;
     letter-spacing: 2px;    
     text-align: center;
-    font-size: 1.5em;
     font-style: italic;
 }
 
 h3 {
     font-family: 'Merriweather', serif;
+    font-size: 18px;
 }
 
 h4 {
@@ -216,39 +215,28 @@ footer p {
 }
 
 /* news */ 
-#news-notices {  
+#news {  
     background-color: white;
 }
 
-#news-notices h1 {
-    text-align: center;
+#news h2 {
+color: rgb(219,10,19)
 }
 
-
-.news-box {
-    border-color: rgb(68, 68, 68);
-    border: 1px dotted;
-    margin: 5%;
-    text-align: center;
-    width: 90%;
-}
-
-.news-tag {
+#news article {
     color: rgb(68, 68, 68);
     padding: 5%;
     font-size: 2rem;
-}
-
-.news-box h3 {
-    color: rgb(232,48,42);
-    font-size: 16px;
     text-align: center;
+    border: 1px dashed;
+    margin: 4%;
+
 }
 
-.news-box p {
-    font-size: 12px;
+#news p {
     text-align: center;
     padding-bottom: 2%;
+    font-size: 1rem;
 }
 
 /* about */
