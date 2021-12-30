@@ -49,23 +49,24 @@
 <!-- form -->
 <!-- used https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail to help me set up a send-mail-to-address action on submit-->
     
-    <section class="form-background">
-        <form class="form-style" action="mailto:penya@chescandinavia.com" method="POST" enctype="text/plain">
+    <section id="page-margin" class="form-background">
+        <form class="form-style" action="mailto:penya@chescandinavia.com" method="POST">
             <h1 class="decorative-text-headline">Contact us!</h1>
-
-                <label for="fname">First name</label>
-                <input class="text-field" type="text" name="first_name" id="fname" required>
-            
-                <label for="fname">Last name</label>
-                <input class="text-field" type="text" name="last_name" id="lname" required>
-            
+            <div>
+                <label for="fname">Name</label>
+                <input class="text-field" type="text" name="name" id="name" required>
+            </div>
+            <div>
                 <label for="email">Email</label>
                 <input class="text-field" type="email" name="email" id="email" required>
-            
+            </div>
+            <div>
                 <label for="message">Message</label>
-                <input class="text-field-big" type="text" name="message" id="message" maxlength="512" > 
-            
+                <textarea name="messege" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
                 <input class="button" type="submit" value="Send" name="send">
+            </div>
         </form>
     </section>
 

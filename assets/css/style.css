@@ -276,7 +276,7 @@ iframe {
 
 /* form */ 
 .form-background {
-    background: url(/assets/img/bg-form.jpg);
+    background: url(/assets/images/bg-form.jpg);
     height: 800px;
 }
 
@@ -292,19 +292,26 @@ iframe {
     height: fit-content;
     position: absolute;
     text-align: left;
-    padding: 5%;
+    padding: 2%;
     margin-left: 5%;
     margin-top: 5%;
 }
 
-.form-style label {
+form div {
     color: white; 
     letter-spacing: 2px;
+    padding-bottom: 0.5rem;
+    display: block;
 }
 
 input {
     border: 1px solid black;
     padding-left: 1%;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
 }
 
 .button {
@@ -316,7 +323,6 @@ input {
 }
 
 .text-field {
-    width: 100%;
     height: 25px;
 }
 
