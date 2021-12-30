@@ -35,11 +35,6 @@ h4 {
     font-size: 12px;
 }
 
-#news-notices h1 {
-    color: rgb(219,10,19);
-    padding: 5%;
-}
-
 /* header */
 header {
     background-color: #ffffff;
@@ -58,8 +53,6 @@ header {
 #logo img {
     width: 100px;
 }
-
-
 
  /* navigation bar */
 #menu {
@@ -81,14 +74,7 @@ header {
     text-transform: capitalize;
 }
 
-
 /* layout elements */
-
-#become-member {
-    background-color: rgb(219,10,19);
-    text-align: center;
-}
-
 
 img {
     width: 100%;
@@ -237,6 +223,18 @@ color: rgb(219,10,19)
     text-align: center;
     padding-bottom: 2%;
     font-size: 1rem;
+}
+
+.medical {
+    color: rgb(219,10,19)
+}
+
+.match {
+    color: black;
+}
+
+.transfer {
+    color: green;
 }
 
 /* about */
