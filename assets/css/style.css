@@ -126,7 +126,7 @@ img {
     color: rgb(219,10,19);
     text-align: center;
     font-size: 3rem;
-    height: 7.5rem;
+    height: 4rem;
     background-color: white;
 }
 
@@ -187,7 +187,8 @@ footer {
     position: static;
     bottom: 0;
     height: 80px;
-    width: 100%;
+    width: 94%;
+    margin-left: 3%;
 }
 
 footer p {
@@ -342,6 +343,24 @@ textarea {
         margin-left: 10%;
         margin-right: 10%;
         background-color: rgb(255, 255, 255);
+    }
+
+    /* news */
+    #news {
+        background-color: white;
+        height: 1200px;
+    }
+
+    article {
+        width: 30%;
+        float: left;
+    }
+
+    /* about */
+
+    iframe {
+        width: 560px;
+        height: 315px;
     }
 
     .fit-left, .fit-right {
