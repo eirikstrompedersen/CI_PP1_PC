@@ -102,6 +102,7 @@ img {
     margin-bottom: 1%;
 }
 
+
 /* action elements */
 #menu a:hover {
     text-decoration: underline;
@@ -180,23 +181,19 @@ p {
 
 .event  {
     display: inline-block;
-    padding: 2%;
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
 }
 
 .event h3 {
     padding-bottom: 2rem;
 }
 
-
 .event p {
     padding: 2%;
     font-family: "Roboto", sans-serif;
 }
-
-#event-center {
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    display: inline-block;
 
 }
 
@@ -372,13 +369,6 @@ input {
     
     .news-box {
     background: white;
-    }
-
-    #event-center {
-        border-right: 1px solid white;
-        border-left: 1px solid white;
-        border-bottom: none;
-        border-top: none;
     }
 
 
