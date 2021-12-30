@@ -20,8 +20,10 @@ h1 {
 
 h2 {
     font-family: 'Merienda One', cursive;
+    letter-spacing: 2px;    
     text-align: center;
     font-size: 1.5em;
+    font-style: italic;
 }
 
 h3 {
@@ -31,6 +33,7 @@ h3 {
 h4 {
     font-family: "Roboto", sans-serif;
     text-align: center;
+    font-size: 12px;
 }
 
 #news-notices h1 {
@@ -133,10 +136,6 @@ img {
     padding-bottom: 4%;
 }
 
-p { 
-    font-style: italic;
-}
-
 .decorative-text {
     font-family: 'Merienda One', cursive;
     color: rgb(219,10,19);
@@ -177,17 +176,20 @@ p {
 
 /* event section */ 
 #event {
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
     width: 100%;
-    background-color: rgb(219,10,19);
+    background-color: rgba(219, 10, 19, 0.8);
     overflow: hidden;
     color: rgb(255, 255, 255);
 }
 
 #event div {
-    display: inline-block;
+    margin: 2%;
+    display: inline;
     float: left;
-    width: 30%;
+    width: 96%;
 }
 
 
