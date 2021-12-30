@@ -206,7 +206,8 @@ footer p {
 }
 
 #news h2 {
-color: rgb(219,10,19)
+color: rgb(219,10,19);
+padding-top: 2rem;
 }
 
 #news article {
@@ -216,7 +217,6 @@ color: rgb(219,10,19)
     text-align: center;
     border: 1px dashed;
     margin: 4%;
-
 }
 
 #news p {
@@ -226,7 +226,7 @@ color: rgb(219,10,19)
 }
 
 .medical {
-    color: rgb(219,10,19)
+    color: rgb(219,10,19);
 }
 
 .match {
@@ -343,17 +343,6 @@ textarea {
         margin-right: 10%;
         background-color: rgb(255, 255, 255);
     }
-
-
-    #news-notices { 
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    
-    .news-box {
-    background: white;
-    }
-
 
     .fit-left, .fit-right {
         width: 40%;
