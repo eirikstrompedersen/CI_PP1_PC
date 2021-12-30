@@ -266,6 +266,19 @@ background-color: #ffffff;
     text-align: left;
 }
 
+.long-read p {
+    margin-top: 2rem;
+    font-style: normal;
+}
+
+.long-read img {
+    width: fit-content;
+}
+
+.center {
+    text-align: center;
+}
+
 .text-break i {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -273,14 +286,10 @@ background-color: #ffffff;
     text-align: center;
 }
 
-.long-read p {
-    margin-top: 2rem;
-    font-style: normal;
-}
-
 iframe {
     margin-top: 2rem;
-    max-width: 224px;
+    width: 100%;
+    padding-right: 3%;
 }
 
 /* form */ 
