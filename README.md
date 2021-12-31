@@ -72,13 +72,14 @@
 3. As a first time user, I want to get information about upcoming events
 
 #### Returning User
-1. As a returning user, I want to learn more about the organization
-2. As a returning user, I want to follow team news
-3. As a returning user, I want to learn more about the supporter club
+4. As a returning user, I want to learn more about the organization
+5. As a returning user, I want to follow team news
+6. As a returning user, I want to learn more about the supporter club
 
 #### Site Owner
-
-
+7. As the site owner, I want users to follow news and upcoming events
+8. As the site owner, I want users to learn more about the organization
+9. AS the site owner, I want users to be able to contact the organization 
 
 ## Design
 
