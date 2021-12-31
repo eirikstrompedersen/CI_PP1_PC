@@ -29,9 +29,6 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -226,4 +223,24 @@ The site cosist of 4 pages
 ![Performance Validation Desktop](/docs/validation/performance-validation-desktop.jpg)
 
 ![Performance Validation Mobile](/docs/validation/performance-validation-mobile.jpg)
+
+
+## Bugs
+- There is a bug I cannot fix, as my mentor asked me to change name on my project repository because it was 'too long'. After name was changed all the images in assets folder would not link up with the deployed site.
+
+- Actions done to solve issue, without success:
+    - rename repository back to orginal name
+    - rename folder with images from "img" to "images"
+    - delete image folder and images from repository and upload it again
+
+- Eventually I came up with a solution which work, but it's not 100% ideal. But this issue is beyound my current knowledge, and I don't want to destroy my entier project right before the project deadline.
+
+I manage to discover that the images address was broken on the deployed site. The folder seems not to be connected to the holder anymore.
+
+In my html you won't find links like "/assets/images/image_name-jpg", since the folder is disconnected from the project repository for some reason. 
+What I did to solve the problem was to hard code the links directly from github to the project
+
+![Error Example 1](/docs/erros/error-example-1.jpg)
+
+![Error Example 2](/docs/erros/error-example-1.jpg)
 
