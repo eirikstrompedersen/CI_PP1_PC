@@ -10,7 +10,6 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-
 /* h1, h2, h3 */
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -33,6 +32,24 @@ h4 {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 12px;
+}
+
+/* layout elements */
+img {
+    width: 100%;
+}
+
+.seperator-line {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(219,10,19);
+}
+
+.seperator-line-thin {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(219,10,19);
+    margin-bottom: 1%;
 }
 
 /* header */
@@ -73,26 +90,6 @@ header {
     color: rgb(255, 255, 255);
     text-transform: capitalize;
 }
-
-/* layout elements */
-
-img {
-    width: 100%;
-}
-
-.seperator-line {
-    width: 100%;
-    height: 10px;
-    background-color: rgb(219,10,19);
-}
-
-.seperator-line-thin {
-    width: 100%;
-    height: 2px;
-    background-color: rgb(219,10,19);
-    margin-bottom: 1%;
-}
-
 
 /* action elements */
 #menu a:hover {
@@ -140,23 +137,12 @@ img {
     background-color: white;
 }
 
-.decorative-text-headline {
-    font-family: 'Merienda One', cursive;
-    color:white;
-    text-align: left;
-}
-
 /* content styles*/
 #page-margin {
     background-color: #ffffff;
     margin-left: 3%;
     margin-right: 3%;
 }
-
-#content-image {
-    width: 100%;
-}
-
 
 /* event section */ 
 #event {
@@ -260,13 +246,6 @@ background-color: #ffffff;
     text-align: center;
 }
 
-.text-break i {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: black;
-    text-align: center;
-}
-
 iframe {
     margin-top: 2rem;
     width: 100%;
@@ -277,11 +256,6 @@ iframe {
 .form-background {
     background: url(https://eirikstrompedersen.github.io//Project-Portfolio-1-Penya-Chescandinavia/assets/images/bg-form.jpg);
     height: 800px;
-}
-
-.form-background h1 {
-    color: white;
-    padding-bottom: 10%;
 }
 
 form h2 {
@@ -329,11 +303,6 @@ textarea {
 
 .text-field {
     height: 25px;
-}
-
-.text-field-big {
-    height: 25px;
-    width: 100%;
 }
 
 /* responsivness */
@@ -420,39 +389,4 @@ textarea {
 
 
     
-}
-
-/*
-@media screen and (max-width: 300px) {
-    
-    #decorative-text {
-        display: none;
-    }
-}
-
-/*
-@media screen and (min-width: 950px) {
-    
-    body {
-        background-image: url(/assets/img/pexels-daria-shevtsova-2029159.jpg);
-    }    
-
-    #left-content , #right-content{
-        width: 40%;
-        margin-right: 10%;
-        margin-left: 10%;
-        float: left;
-    }
-
-    #social-media-navbar {
-        padding-right: 10%;
-    }   
-}
-
-
-/* mobile screens */ 
-
-/*
-@media screen and (min-width: 800px) {
-
 }
