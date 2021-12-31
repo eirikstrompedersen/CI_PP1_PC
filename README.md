@@ -240,7 +240,7 @@ I manage to discover that the images address was broken on the deployed site. Th
 In my html you won't find links like "/assets/images/image_name-jpg", since the folder is disconnected from the project repository for some reason. 
 What I did to solve the problem was to hard code the links directly from github to the project
 
-![Error Example 1](/docs/erros/error-example-1.jpg)
+![Error Example 1](/docs/bugs/error-example-1.jpg)
 
-![Error Example 2](/docs/erros/error-example-1.jpg)
+![Error Example 2](/docs/bugs/error-example-1.jpg)
 
