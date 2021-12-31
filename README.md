@@ -104,3 +104,27 @@ The site cosist of 4 pages
 - The contact page provides a form for the user. The "submit-button" will open the users mail client.
 
 ### Wireframes
+<details><summary>Index - Desktop</summary>
+<img src="docs/wireframes-index-desktop.jpg">
+</details>
+<details><summary>Index - Mobile</summary>
+<img src="docs/wireframes-index-mobile.jpg">
+</details>
+<details><summary>About - Desktop</summary>
+<img src="docs/wireframes-about-desktop.jpg">
+</details>
+<details><summary>About - Mobile</summary>
+<img src="docs/wireframes-about-mobile.jpg">
+</details>
+<details><summary>News - Desktop</summary>
+<img src="docs/wireframes-news-desktop.jpg">
+</details>
+<details><summary>News - Mobile</summary>
+<img src="docs/wireframes-news-mobile.jpg">
+</details>
+<details><summary>Contact - Desktop</summary>
+<img src="docs/wireframes-contact-desktop.jpg">
+</details>
+<details><summary>Contact - Mobile</summary>
+<img src="docs/wireframes-contact-mobile.jpg">
+</details>
