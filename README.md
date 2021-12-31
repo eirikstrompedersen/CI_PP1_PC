@@ -1,7 +1,7 @@
 # Penya Chescandinavia - homepage
 (Developer: Eirik Strøm Pedersen)
 
-![Mockup image](https://raw.githubusercontent.com/eirikstrompedersen/Project-Portfolio-1-Penya-Chescandinavia/main/docs/am-i-responsive.jpg)
+![Mockup image](/docs/am-i-responsive.jpg)
 
 [Live webpage](https://eirikstrompedersen.github.io/Project-Portfolio-1-Penya-Chescandinavia/contact.html)
 
@@ -82,14 +82,14 @@
 9. AS the site owner, I want users to be able to contact the organization 
 
 ## Design
+The website is designed with a focus on 
 
+The design are tightly knit to the design used by the Valenica CF, and also the regional flag of Valencia. 
+This is to give the user a sense of familiarity with the website.
 
+### Color
+Colors is picked on the basis on familiarity to the football team and the region flag. The football team plays in white shirts, with black shorts. 
 
+![Color scheme1](docs/color-inspiration1)
+![Color scheme2](docs/color-inspiration2)
 
-
-Penya Chescandinavia is a Scandinavian supporter organization for the Spanish football team Valencia C.F. The Chescandinavia home page is a tool for the organization to reach out to the members, the community and the people who are interested to become part of the supporter organization. 
-The main task for the home page is to:
-•	Give the users an introduction to Penya Chescandinavia and what it is
-•	Connect the users to the community
-•	Provide contact information to the supporter club
-•	Showcase some of our depth articles
