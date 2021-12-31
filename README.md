@@ -270,7 +270,6 @@ Some images are my own, and I wont credit them in the list below.
 
 ### Code
 - The 'send email'-functionality was made following [W3schools Guide](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail)
-- The 404. page was made using instructions from [GitHib Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 ## Acknowledgements
 - My mentor Mo Shami for his support
