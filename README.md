@@ -105,26 +105,26 @@ The site cosist of 4 pages
 
 ### Wireframes
 <details><summary>Index - Desktop</summary>
-<img src="docs/wireframes-index-desktop.jpg">
+<img src="docs/wireframes/wireframes-index-desktop.jpg">
 </details>
 <details><summary>Index - Mobile</summary>
-<img src="docs/wireframes-index-mobile.jpg">
+<img src="docs/wireframes/wireframes-index-mobile.jpg">
 </details>
 <details><summary>About - Desktop</summary>
-<img src="docs/wireframes-about-desktop.jpg">
+<img src="docs/wireframes/wireframes-about-desktop.jpg">
 </details>
 <details><summary>About - Mobile</summary>
-<img src="docs/wireframes-about-mobile.jpg">
+<img src="docs/wireframes/wireframes-about-mobile.jpg">
 </details>
 <details><summary>News - Desktop</summary>
-<img src="docs/wireframes-news-desktop.jpg">
+<img src="docs/wireframes/wireframes-news-desktop.jpg">
 </details>
 <details><summary>News - Mobile</summary>
-<img src="docs/wireframes-news-mobile.jpg">
+<img src="docs/wireframes/wireframes-news-mobile.jpg">
 </details>
 <details><summary>Contact - Desktop</summary>
-<img src="docs/wireframes-contact-desktop.jpg">
+<img src="docs/wireframes/wireframes-contact-desktop.jpg">
 </details>
 <details><summary>Contact - Mobile</summary>
-<img src="docs/wireframes-contact-mobile.jpg">
+<img src="docs/wireframes/wireframes-contact-mobile.jpg">
 </details>
