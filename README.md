@@ -91,5 +91,4 @@ Colors is picked on the basis on familiarity to the football team and the region
 This is to give the user a sense of familiarity with the website.
 
 ![Color scheme1](docs/color-inspiration1.jpg)
-![Color scheme2](docs/color-inspiration2.jpg)
 
