@@ -82,14 +82,14 @@
 9. AS the site owner, I want users to be able to contact the organization 
 
 ## Design
-The website is designed with a focus on 
 
-The design are tightly knit to the design used by the Valenica CF, and also the regional flag of Valencia. 
-This is to give the user a sense of familiarity with the website.
+### Design Choices
+The website is designed with easy design, which make information easy to access for the user.
 
 ### Color
 Colors is picked on the basis on familiarity to the football team and the region flag. The football team plays in white shirts, with black shorts. 
+This is to give the user a sense of familiarity with the website.
 
-![Color scheme1](docs/color-inspiration1)
-![Color scheme2](docs/color-inspiration2)
+![Color scheme1](docs/color-inspiration1.jpg)
+![Color scheme2](docs/color-inspiration2.jpg)
 
