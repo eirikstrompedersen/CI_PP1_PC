@@ -1,12 +1,11 @@
 # Penya Chescandinavia - homepage
 (Developer: Eirik Strøm Pedersen)
 
-![Mockup image](docs/am-i-responsive)
+![Mockup image](https://raw.githubusercontent.com/eirikstrompedersen/Project-Portfolio-1-Penya-Chescandinavia/main/docs/am-i-responsive.jpg)
 
 [Live webpage](https://eirikstrompedersen.github.io/Project-Portfolio-1-Penya-Chescandinavia/contact.html)
 
-## Table of Content
-
+## Table of Contents
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
@@ -43,38 +42,39 @@
 ### User Goals
 - Find the Scandinavian supporter organization for Valencia CF
 - Get information about the supporter club
-- Find information about events
-- Link up with social media platform
+- Find events
+- Link up with social media platforms
 
 ### Site Owner Goals
-- Recruit members to oranization
+- Provide users with information about the suppoter club 
 - Connect users to the social media platforms
-- Provide information for upcomming events and past histoy
+- Inform users of our events
+- Provide and store the history of Penya Chescandinavia
 
 ## User Experience
 
 ### Target Audience 
-- People who wish to join the organization
 - Inhabitants in Scandinavia interested in Valencia CF
-- People that wish to contact the supporter club
-
+- People who wish to connect with the community
 
 ### User Requirements and Expectations
-- Clean design with a color th
+- Clean design with a color theme familiar to people who follows Valencia CF
 - Easy to access information
+- Links to social media platforms
 - Responsive design
 - Accessibility
 
-### User Stories
+### User Storiess
 
 #### First-Time User
 1. As a first time user, I want to get information about Penya Chescandinavia
 2. As a first time user, I want to be able to connect with the social media platforms offered
-3. As a first time user, I want to get information about upcomming events
+3. As a first time user, I want to get information about upcoming events
 
 #### Returning User
-1. As a first time user, I want to able to join the supporter organization
-
+1. As a returning user, I want to learn more about the organization
+2. As a returning user, I want to follow team news
+3. As a returning user, I want to learn more about the supporter club
 
 #### Site Owner
 
