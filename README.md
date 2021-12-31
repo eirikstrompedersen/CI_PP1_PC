@@ -152,7 +152,13 @@ The site cosist of 4 pages
 ## Features
 
 ### Navigation bar and logo
-    - features on all pages, and is identical across  the pages. The navigation bar give the user access to navigate through all sites, and it's responsive. The logo is also a link that taks the user back to the landing page.
-    ![logo](/docs/features/logo.jpg)
-    
-    ![navbar](/docs/features/navbar.jpg)
+- features on all pages, and is identical across  the pages. The navigation bar give the user access to navigate through all sites, and it's responsive. The logo is also a link that taks the user back to the landing page.
+   
+![Logo](/docs/features/logo.jpg)
+
+![Navbar](/docs/features/navbar.jpg)
+
+### Intoduction
+- Feature on landing page. Gives the user basic information about the site and the organization.
+
+![Into](/docs/features/intro.jpg)
