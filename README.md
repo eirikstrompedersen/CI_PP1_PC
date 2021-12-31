@@ -153,5 +153,6 @@ The site cosist of 4 pages
 
 ### Navigation bar and logo
     - features on all pages, and is identical across  the pages. The navigation bar give the user access to navigate through all sites, and it's responsive. The logo is also a link that taks the user back to the landing page.
-    ![logo]()
-    ![navbar]()
+    ![logo](/docs/features/logo.jpg)
+    
+    ![navbar](/docs/features/navbar.jpg)
