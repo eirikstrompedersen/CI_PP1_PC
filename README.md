@@ -95,3 +95,12 @@ This is to give the user a sense of familiarity with the website.
 ### Fonts
 Roboto is used for the logo as it is an elegant font. Merriweather used for the text content on the page, mainøy for it readability. Merienda One used in h2 to add some dynamic to the site.
 
+### Structure
+The page use a common design well know the for most users. With navigation bar at the top of the site and a footer at the bottom. In between the content are designed differently for every site.
+The site cosist of 4 pages
+- The homepage provide basic information about the supporter club and upcoming events
+- The about page is a long read page with the history of the supporter club
+- The news page consist of News notices. A quick read to get updated
+- The contact page provides a form for the user. The "submit-button" will open the users mail client.
+
+### Wireframes
