@@ -185,7 +185,7 @@ The site cosist of 4 pages
 - Section with News Notices, to provide a quick update for the user
 - The section is devided in blocks for better overview
 
-![News](/docs/features/mews-frame.jpg)
+![News](/docs/features/news-frame.jpg)
 
 ### About
 - The section gives the user information about the organization and it's history
