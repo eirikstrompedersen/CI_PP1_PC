@@ -128,3 +128,11 @@ The site cosist of 4 pages
 <details><summary>Contact - Mobile</summary>
 <img src="docs/wireframes/wireframes-contact-mobile.jpg">
 </details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks and Tools
