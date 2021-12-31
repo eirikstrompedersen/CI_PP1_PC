@@ -29,7 +29,7 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-8. [Bugs](#Bugs)
+8. [Unfixed Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
@@ -225,7 +225,7 @@ The site cosist of 4 pages
 ![Performance Validation Mobile](/docs/validation/performance-validation-mobile.jpg)
 
 
-## Bugs
+### Unfixed Bugs
 - There is a bug I cannot fix, as my mentor asked me to change name on my project repository because it was 'too long'. After name was changed all the images in assets folder would not link up with the deployed site.
 
 - Actions done to solve issue, without success:
@@ -244,3 +244,36 @@ What I did to solve the problem was to hard code the links directly from github 
 
 ![Error Example 2](/docs/bugs/error-example-1.jpg)
 
+## Deployment
+- I deployed the project via GitHub
+- GitHub -> Project repository -> Settings -> pages
+- Be sure that the "main" branch is the one choosen in the dropdown menu.
+- Click save
+- Go to action tab to follow the deployment progess
+- Test site after deployment
+
+## Credits
+
+### Content
+
+- The text content I got from the existing [Penya Chescandinavia site](http://www.cerveras.es/chescandinavia/about-2/)
+- The rest of the text content I wrote myself
+- The social media icons and the icons used in the news page was imported from [FontAwesome](https://fontawesome.com)
+- The template for the Readme.md file was provided by my mentor Mo Shami, but was made by GitHub user and former CI-student [4n4aru](https://github.com/4n4ru/CI_MS1_BodelschwingherHof)
+
+### Media
+Some images are my own, and I wont credit them in the list below.
+
+- The [Youtube Video](https://www.youtube.com/watch?v=CP4tQeoz_PU) used on About.html is property of Penya Chescandinavia
+- The Logo is a property of Penya Chescandinavia, and they allowed me to use it in this procjet (I'm a board member in the organization)
+- "bg-form.jpg": Photo by [Guzmán Barquín](https://unsplash.com/@guzmanbarquin) on [Unsplash](https://unsplash.com/)
+
+### Code
+- The 'send email'-functionality was made following [W3schools Guide](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail)
+- The 404. page was made using instructions from [GitHib Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+## Acknowledgements
+- My mentor Mo Shami for his support
+- Code Insititute and their slack community
+- My girlfriend for her patience
+- Penya Chescandinavia and the wonderfull community around it
