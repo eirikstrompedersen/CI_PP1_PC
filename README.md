@@ -136,3 +136,22 @@ The site cosist of 4 pages
 - CSS
 
 ### Frameworks and Tools
+- Git
+- GitHub
+- GitPod
+- Fontawesome
+- Balsamiq
+- Google Fonts
+- Favicon
+- VS Code
+- W3C Validator
+- W3C CSS Validator
+- Google Lighthouse
+- Chrome DevTools
+
+## Features
+
+### Navigation bar and logo
+    - features on all pages, and is identical across  the pages. The navigation bar give the user access to navigate through all sites, and it's responsive. The logo is also a link that taks the user back to the landing page.
+    ![logo]()
+    ![navbar]()
