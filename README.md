@@ -205,25 +205,25 @@ The site cosist of 4 pages
 - The HTML came through the validation process with no issues with the html-structure
 - The validation was done with [Jigsaw HTML Validator](https://validator.w3.org/)
 
-![html Validation]()
+![html Validation](/docs/validation/html-validation.jpg)
 
 ### CSS Validation
 - The CSS came through the validation process with no issues with the html-structure
 - The validation was done with [Jigsaw HTML Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options)
 
-![CSS Validation]()
+![CSS Validation](/docs/validation/css-validation.jpg)
 
 ### Accessibility
 - the site came through the accessibility validation with 1 alert, refering to copyright text in the footer being small. Minor issue as it's not crucial information for the user of the page
 - The validation was done through [WAVE WebAim](https://wave.webaim.org/)
 
-![Accessibility Validation]()
+![Accessibility Validation](/docs/validation/accessibility-validation.jpg)
 
 ### Performance Validation
 - The site generated good score on both desktop performance, and mobile performance
 - The validation was done with [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-![Performance Validation Desktop]()
+![Performance Validation Desktop](/docs/validation/performance-validation-desktop.jpg)
 
-![Performance Validation Mobile]()
+![Performance Validation Mobile](/docs/validation/performance-validation-mobile.jpg)
 
