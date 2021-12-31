@@ -159,6 +159,44 @@ The site cosist of 4 pages
 ![Navbar](/docs/features/navbar.jpg)
 
 ### Intoduction
-- Feature on landing page. Gives the user basic information about the site and the organization.
+- landing page image is the first the user sees when visitin the site. The image represent what Penya Chescandinavia is.
+
+![Intro-Image](/docs/features/intro-image.jpg)
+
+- introduction text feature on landing page. Gives the user basic information about the site and the organization.
 
 ![Into](/docs/features/intro.jpg)
+
+### Events
+- This section informs the user of upcoming events and gatherings.
+- The section gives the user a overview of events in the different nations
+
+![Events](/docs/features/events-section.jpg)
+
+
+### Footer
+- Gives copyright information
+- Provides the user with links to the different social media platform the organization uses
+- Anchored to the bottom of the page
+
+![Footer](/docs/features/footer.jpg)
+
+### News
+- Section with News Notices, to provide a quick update for the user
+- The section is devided in blocks for better overview
+
+![News](/docs/features/mews-frame.jpg)
+
+### About
+- The section gives the user information about the organization and it's history
+- This page also works as a safe space to save the history for the organization
+
+![About](/docs/features/about.jpg)
+
+### Form
+- The form page gives the user access to contact the organization via mail
+- The submit buttom opens the mail client on the user device
+
+![form](/docs/features/form.jpg)
+
+## Testing
