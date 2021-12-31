@@ -92,3 +92,6 @@ This is to give the user a sense of familiarity with the website.
 
 ![Color scheme1](docs/color-inspiration1.jpg)
 
+### Fonts
+Roboto is used for the logo as it is an elegant font. Merriweather used for the text content on the page, mainøy for it readability. Merienda One used in h2 to add some dynamic to the site.
+
